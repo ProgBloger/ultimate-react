@@ -1,0 +1,99 @@
+# Ignore Node.js-related files and directories
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore build output
+/build/
+/dist/
+/.next/
+/out/
+/.nuxt/
+/public/
+/.parcel-cache/
+
+# Ignore development and environment-specific files
+.env.local
+.env.development
+.env.test
+.env.production
+.env*.local
+.env*.development
+.env*.test
+.env*.production
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.user
+*.suo
+*.cache
+*.log
+*.dat
+*.bak
+
+# Ignore macOS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore Windows-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore Jest test results
+coverage/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore build caches and logs
+.cache/
+.cypress/
+.cache-loader/
+.npm/
+.pnp/
+.pnp.js
+*.log
+
+# Ignore dependencies and package manager files
+package-lock.json
+yarn.lock
+yarn-error.log
+
+# Ignore local configuration files
+.idea
+*.iml
+
+# Ignore miscellaneous files
+*.bak
+*.swp
+
+# Ignore OS generated files
+ehthumbs.db
+Thumbs.db
+.DS_Store
+
+# Ignore Visual Studio Code directory
+.vscode/
+
+# Ignore ESLint cache
+.eslintcache/
+
+# Ignore Mac-specific files
+.AppleDouble
+.LSOverride
+
+# Ignore Yarn integrity file
+.yarn-integrity
+
+# Ignore build directories for React applications
+/node_modules/
+/build/
